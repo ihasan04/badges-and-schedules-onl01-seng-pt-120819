@@ -13,8 +13,3 @@ def assign_rooms(list_of_speakers)
       "Hello, #{name}! You'll be assigned to room #{index + 1}!"}
     end
 end
-
-def printer(speakers)
-    batch_badge_creator(speakers).each { |element| puts element}
-    assign_rooms(speakers).each { |element| puts element}
-end
